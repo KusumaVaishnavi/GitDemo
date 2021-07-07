@@ -3,3 +3,193 @@ loaction : Vijayawada
 Join Date :7th July 2021
 Domain : .net
 
+
+kusumavaishnavi@DESKTOP-NN19MM0 MINGW64 ~
+$ cd E:\Git
+
+kusumavaishnavi@DESKTOP-NN19MM0 MINGW64 /e/Git
+$ git version
+git version 2.32.0.windows.2
+
+kusumavaishnavi@DESKTOP-NN19MM0 MINGW64 /e/Git
+$ git clone https://github.com/KusumaVaishnavi/GitDemo.git
+Cloning into 'GitDemo'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+kusumavaishnavi@DESKTOP-NN19MM0 MINGW64 /e/Git
+$ git demo
+git: 'demo' is not a git command. See 'git --help'.
+
+The most similar command is
+        daemon
+
+kusumavaishnavi@DESKTOP-NN19MM0 MINGW64 /e/Git
+$ gitgitdemo
+bash: gitgitdemo: command not found
+
+kusumavaishnavi@DESKTOP-NN19MM0 MINGW64 /e/Git
+$ gitdemo
+bash: gitdemo: command not found
+
+kusumavaishnavi@DESKTOP-NN19MM0 MINGW64 /e/Git
+$ git demo
+git: 'demo' is not a git command. See 'git --help'.
+
+The most similar command is
+        daemon
+
+kusumavaishnavi@DESKTOP-NN19MM0 MINGW64 /e/Git
+$ git config --global user.name "Kusuma Vaishnavi"
+
+kusumavaishnavi@DESKTOP-NN19MM0 MINGW64 /e/Git
+$ git config --global user.email "kusumavaishnavi13@gmail.com"
+
+kusumavaishnavi@DESKTOP-NN19MM0 MINGW64 /e/Git
+$ git config --global --list
+user.name=Kusuma Vaishnavi
+user.email=kusumavaishnavi13@gmail.com
+
+kusumavaishnavi@DESKTOP-NN19MM0 MINGW64 /e/Git
+$
+
+kusumavaishnavi@DESKTOP-NN19MM0 MINGW64 /e/Git
+$ git clear
+git: 'clear' is not a git command. See 'git --help'.
+
+The most similar command is
+        clean
+
+kusumavaishnavi@DESKTOP-NN19MM0 MINGW64 /e/Git
+$ git clean
+fatal: not a git repository (or any of the parent directories): .git
+
+kusumavaishnavi@DESKTOP-NN19MM0 MINGW64 /e/Git
+$  git gitdemo
+git: 'gitdemo' is not a git command. See 'git --help'.
+
+kusumavaishnavi@DESKTOP-NN19MM0 MINGW64 /e/Git
+$ ^C
+
+kusumavaishnavi@DESKTOP-NN19MM0 MINGW64 /e/Git
+$ cd gitdemo
+
+kusumavaishnavi@DESKTOP-NN19MM0 MINGW64 /e/Git/gitdemo (main)
+$ notepad++
+bash: notepad++: command not found
+
+kusumavaishnavi@DESKTOP-NN19MM0 MINGW64 /e/Git/gitdemo (main)
+$ git init
+Reinitialized existing Git repository in E:/Git/GitDemo/.git/
+
+kusumavaishnavi@DESKTOP-NN19MM0 MINGW64 /e/Git/gitdemo (main)
+$ ls -al
+total 5
+drwxr-xr-x 1 kusumavaishnavi 197121 0 Jul  7 10:10 ./
+drwxr-xr-x 1 kusumavaishnavi 197121 0 Jul  7 10:10 ../
+drwxr-xr-x 1 kusumavaishnavi 197121 0 Jul  7 10:18 .git/
+-rw-r--r-- 1 kusumavaishnavi 197121 9 Jul  7 10:10 README.md
+
+kusumavaishnavi@DESKTOP-NN19MM0 MINGW64 /e/Git/gitdemo (main)
+$ echo "welcome to the version control">>welcome.txt
+
+kusumavaishnavi@DESKTOP-NN19MM0 MINGW64 /e/Git/gitdemo (main)
+$ ls _al
+ls: cannot access '_al': No such file or directory
+
+kusumavaishnavi@DESKTOP-NN19MM0 MINGW64 /e/Git/gitdemo (main)
+$ la -al
+bash: la: command not found
+
+kusumavaishnavi@DESKTOP-NN19MM0 MINGW64 /e/Git/gitdemo (main)
+$ ls -al
+total 6
+drwxr-xr-x 1 kusumavaishnavi 197121  0 Jul  7 10:19 ./
+drwxr-xr-x 1 kusumavaishnavi 197121  0 Jul  7 10:10 ../
+drwxr-xr-x 1 kusumavaishnavi 197121  0 Jul  7 10:18 .git/
+-rw-r--r-- 1 kusumavaishnavi 197121  9 Jul  7 10:10 README.md
+-rw-r--r-- 1 kusumavaishnavi 197121 31 Jul  7 10:19 welcome.txt
+
+kusumavaishnavi@DESKTOP-NN19MM0 MINGW64 /e/Git/gitdemo (main)
+$ cat welcome.txt
+welcome to the version control
+
+kusumavaishnavi@DESKTOP-NN19MM0 MINGW64 /e/Git/gitdemo (main)
+$ vi personal.txt
+
+kusumavaishnavi@DESKTOP-NN19MM0 MINGW64 /e/Git/gitdemo (main)
+$ cat personal.txt
+name : Kusuma Vaishnavi
+loaction : Vijayawada
+Join Date :7th July 2021
+Domain : .net
+
+
+kusumavaishnavi@DESKTOP-NN19MM0 MINGW64 /e/Git/gitdemo (main)
+$ la -al
+bash: la: command not found
+
+kusumavaishnavi@DESKTOP-NN19MM0 MINGW64 /e/Git/gitdemo (main)
+$ ls -al
+total 11
+drwxr-xr-x 1 kusumavaishnavi 197121  0 Jul  7 10:22 ./
+drwxr-xr-x 1 kusumavaishnavi 197121  0 Jul  7 10:10 ../
+drwxr-xr-x 1 kusumavaishnavi 197121  0 Jul  7 10:18 .git/
+-rw-r--r-- 1 kusumavaishnavi 197121  9 Jul  7 10:10 README.md
+-rw-r--r-- 1 kusumavaishnavi 197121 86 Jul  7 10:22 personal.txt
+-rw-r--r-- 1 kusumavaishnavi 197121 31 Jul  7 10:19 welcome.txt
+
+kusumavaishnavi@DESKTOP-NN19MM0 MINGW64 /e/Git/gitdemo (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        personal.txt
+        welcome.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+kusumavaishnavi@DESKTOP-NN19MM0 MINGW64 /e/Git/gitdemo (main)
+$ git add .
+warning: LF will be replaced by CRLF in personal.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in welcome.txt.
+The file will have its original line endings in your working directory
+
+kusumavaishnavi@DESKTOP-NN19MM0 MINGW64 /e/Git/gitdemo (main)
+$ git commit -m "Added two text files."
+[main a745f35] Added two text files.
+ 2 files changed, 6 insertions(+)
+ create mode 100644 personal.txt
+ create mode 100644 welcome.txt
+
+kusumavaishnavi@DESKTOP-NN19MM0 MINGW64 /e/Git/gitdemo (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+kusumavaishnavi@DESKTOP-NN19MM0 MINGW64 /e/Git/gitdemo (main)
+$ git remotr add origin https://github.com/KusumaVaishnavi/GitDemo.git
+git: 'remotr' is not a git command. See 'git --help'.
+
+The most similar command is
+        remote
+
+kusumavaishnavi@DESKTOP-NN19MM0 MINGW64 /e/Git/gitdemo (main)
+$ git remote add origin https://github.com/KusumaVaishnavi/GitDemo.git
+error: remote origin already exists.
+
+kusumavaishnavi@DESKTOP-NN19MM0 MINGW64 /e/Git/gitdemo (main)
+$ git push origin main
+
+git push origin main
+
+
+

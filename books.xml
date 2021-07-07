@@ -1,0 +1,12 @@
+
+<? xml version ="1.0"?>
+<books>
+	<book>
+		<id>B1001</id>
+		<title>Discovery of India</title>
+	</books>
+        <book>
+		<id>B1002</id>
+		<title>Winga of Fire</title>
+	</book>
+</books>
